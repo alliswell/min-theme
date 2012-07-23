@@ -3,7 +3,7 @@
 
 A minimal WordPress single column theme
 
-![min theme](https://github.com/alliswell/min-theme/blob/master/img/thumbnail.png)
+![min theme](http://cdn.jarederickson.com/wp-content/uploads/2011/01/min-free-minimal-wordpress-theme-560x390.png)
 
 Download: http://jarederickson.com/2011/min-a-free-wordpress-minimal-theme/
 Demo:*http://lessmade.com/themes/min
