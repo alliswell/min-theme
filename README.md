@@ -7,5 +7,8 @@ A minimal WordPress single column theme
 *Demo:* http://lessmade.com/themes/min
 
 ## v1.2
-Updated URL's to reflect new demo page
-removed PressTrends tracking
+- Updated URL's to reflect new demo page
+- Removed PressTrends tracking
+
+## v1.1
+- Updated functions.php with Presstrendeds tracking
