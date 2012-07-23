@@ -1,0 +1,12 @@
+/*  reset.css
+	
+	Purpose: undo some of the default styling of common (X)HTML browsers
+	More info: http://tantek.com/log/2004/09.html#d06t2354
+*/
+body{font-size:62.5%}
+a:link,a:visited{text-decoration:none;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6,pre,code{font-size:1em;}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0;padding:0;}
+a img,:link img,:visited img{border:none;}
+address{font-style:normal;}

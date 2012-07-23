@@ -1,0 +1,14 @@
+/* styles-ie7.css */
+
+.comment {
+	height: 1%;
+}
+
+.entry ul {
+	list-style: none outside;
+	height: 1%;
+}
+
+.entry ul li {
+	padding: 0 0 0 15px;
+}

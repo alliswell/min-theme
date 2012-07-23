@@ -1,0 +1,158 @@
+/*  
+Theme Name: min theme
+Theme URI: http://www.jarederickson.com/
+Description: simple clean wordpress theme
+Version: 1.2
+Author: Jared Erickson
+Author URI: http://www.jarederickson.com/
+*/
+
+@import "css/reset.css";
+@import "css/forms.css";
+
+/********************************************
+	
+	Typography
+	
+*********************************************/
+
+p { margin: 1em 0; }
+h1 { font-size: 25px; font-weight: normal; }
+a.back { text-decoration: underline; }
+#search h2, #comments h3, #commentform h3, .emptysearch, .error { font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; }
+
+.back:link, .back:visited { color: #f60; }
+.back:hover, .back:active, .back:focus { color: #3A525C; }
+
+
+/********************************************
+	
+	Layout
+	
+*********************************************/
+
+#wrapper { color: #999; font-family: "Lucida Grande", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 145%; margin: 0 auto; padding: 0 2em; width: 560px; }
+
+#header { margin: 0 0 -1em 0; padding: 5em 0 0 0; position: relative; }
+#header .description { font-size: 13px; }
+#header a { text-decoration: none; }
+#header a:link, #header a:visited { color: #000; text-shadow: 0 1px 2px #fff; }
+#header a:hover, #header a:active, #header a:focus { color: #3A525C; }
+
+#header .description { margin: .5em 0 0 0 }
+
+.post { background: #fff; margin: 4.6em 0; padding: 2em 0; position: relative; border-bottom: 1px solid #f0f0f0; }
+.post img.attachment-post-thumbnail { float: left; margin: 0 2em 2em 0; padding: 0; }
+.post img, .post object, .post embed { display: block; margin: 0 auto 0.8em auto; }
+.post img { }
+.post .number-of-comments a:link, .post .number-of-comments a:visited { color: #CCC }
+.post .number-of-comments a:hover, .post .number-of-comments a:active, .post .number-of-comments a:focus { color: #CCC }
+.post .vvqbox { margin: 2em auto; }
+.post .date { color: #ccc; font-size: 12px; position: absolute; top: 0; right: 0; }
+
+.post h2 a { text-decoration: none; }
+.post h2 a:link, .post h2 a:visited { color: #878787; }
+.post h2 a:hover, .post h2 a:active, .post h2 a:focus { color: #3A525C; }
+.post h2 { font-size: 22px; line-height: 120%; font-weight: normal; }
+.post h3 { color: #ccc; margin: 0 0 1em 0; font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; line-height: 120%; }
+.post h4 { color: #CCC; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%; margin: 2em 0 1em 0; }
+.post h5 { color: #CCC;  font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%;  margin: 2em 0 1em 0; }
+.post blockquote cite { font-style: normal; }
+.post .number-of-comments a { text-decoration: underline; font-size: 13px; }
+#comments { font-size: 13px; }
+
+.post .number-of-comments { position: absolute; right: 1em; }
+.post blockquote { color: #fff; background: #878787; margin: 2em; padding: .1em 1.5em; position: relative; }
+.post blockquote cite { display: block; text-align: right; }
+
+.entry a:link, .comment a:link { color: #CCC }
+.entry a:visited, .comment a:visited { color: #CCC }
+.entry a:hover, .entry a:active, .entry a:focus, .comment a:hover, .comment a:active, .comment a:focus { color: #3A525C; }
+.entry .more-link { font-size: 12px; }
+
+.entry ul { list-style: none inside; padding: 0 1em; }
+.entry ol { list-style: decimal outside; padding: 0 2.5em; }
+.entry ul li { background: url(img/bullet.gif) 0 7px no-repeat; margin: 1em 0; padding: 0 0 0 15px; }
+.entry ol li { margin: 1em 0 }
+
+#commentform { background: #fff; margin: 2.3em 0 4.6em 0; padding: 0; }
+#commentform a:link, #commentform a:visited { color: #3A525C; }
+#commentform a:hover, #commentform a:active, #commentform a:focus { color: #CCC; }
+.comment { padding: 1.8em 1.6em; position: relative; overflow: hidden; border: 1px solid #f0f0f0; }
+.comment .date { bottom: 1em; position: absolute; right: 1em; }
+#comments h3 { margin: 0 0 2em 0; font-size: 18px; }
+#commentform h3 { margin: 0 0 25px 0; }
+#commentform p { font-size: 13px }
+.comment cite { font-style: normal; }
+.comment cite a { text-decoration: underline; }
+#comments h3, #commentform h3 { color: #CCC }
+.highlighted { border: 1px solid #f0f0f0;  }
+.highlighted a:link, .highlighted a:visited { color: #09C }
+.comment cite { color: #CCC }
+.comment .moderation { color: #FFF }
+
+.pagination { color: #CCC margin: -2.6em 0 4.6em 0; }
+.pagination div { float: left; margin: 0 2em 0 0; }
+.pagination a { text-decoration: underline;}
+.pagination a:link, .pagination a:visited { color: #CCC; }
+.pagination a:hover, .pagination a:active, .pagination a:focus { color: #999; }
+
+
+#sb-1 { float: left; width: 45%; }
+#sb-2 { float: right; width: 45%; }
+
+#sidebar { font-size: 13px; color: #828282; padding: 0 0 7em 0; margin: 4em 0 0 0; }
+#sidebar a { text-decoration: none; }
+#sidebar a:link, #sidebar a:visited { color: #C4C4C4; }
+#sidebar a:hover, #sidebar a:active, #sidebar a:focus { color: #ccc; }
+#sidebar #sb-2 a:link, #sidebar #sb-2 a:visited { color: #C4C4C4; }
+#sidebar #sb-2 a:hover, #sidebar #sb-2 a:active, #sidebar #sb-2 a:focus { color: #CCC; }
+#sidebar .email { background: url(../img/ico-mail.gif) 0 4px no-repeat; padding: 0 0 0 1.8em; }
+#sidebar #rss li { background: url(../img/ico-rss.jpg) left center no-repeat; padding: 0; margin: .5em 0; }
+
+
+#footer { color: #828282; padding: 1em 0; font-size: 10px; }
+#footer p { margin: 0; }
+
+#footer a { text-decoration: none; }
+#footer a:link, #footer a:visited { color: #3A525C; font-weight: bold; }
+#footer a:hover, #footer a:active, #footer a:focus { color: #CCC; }
+
+.footer-widget { margin-bottom: 1.5em; }
+
+/********************************************
+	
+	Form Styles
+	
+*********************************************/
+
+.input-text, textarea { background: #f0f0f0; border: none; font-size: 13px; padding: .3em; }
+label { font-size: 1em; margin: 0 .5em; }
+#search-form label { position: absolute; top: -99999px; }
+p.input-submit { text-align: right }
+#commentform input { width: 43% }
+#commentform textarea { font-size: 1em; font-family: Helvetica, Arial, sans-serif; width: 560px; }
+#commentform #submit-comment { width: auto; font-size: 14px; border: 0; padding: 5px; background: #3A525C; color: #fff; }
+#search-form #submit { padding: 1px 13px; margin: 0 0 0 5px; }
+#search h2, .emptysearch, .error { color: #CCC; }
+
+
+
+/*
+Thanks http://www.positioniseverything.net/easyclearing.html
+*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+

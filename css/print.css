@@ -1,0 +1,38 @@
+/* print.css */
+
+body {
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: black;
+	font-size: 12pt;
+}
+#header h1 {
+	margin: 0;
+}
+#header .description {
+	margin: 0;
+}
+.post {
+	margin: 48pt 0;
+}
+.category {
+	margin: 48pt 0 -24pt 0;
+}
+.comment {
+	margin: 0;
+	padding: 0;
+}
+.date {
+	font-style: normal;
+	margin: 0 5pt 0 0;
+}
+.back,.pagination,#sidebar,#commentform,#footer {
+	display: none;
+}
+a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.entry a, .comment a {
+	color: #09C;
+}
